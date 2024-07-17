@@ -1,13 +1,11 @@
 <template>
-  <div class="app">
-
-  </div>
+    <NavBar />
+    <router-view />
 </template>
 
-<script>
-
+<script setup>
+import { RouterLink, RouterView } from "vue-router";
+import NavBar from "./components/NavBar.vue";
 </script>
 
-<style>
-
-</style>
+<style></style>
